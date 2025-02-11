@@ -1,0 +1,5 @@
+<alunno id="1">
+    <nome type="string"> C </nome>
+    <cognome type="string"> ssC </cognome>
+    <eta type="numeric"> 34 </eta>
+</alunno>
