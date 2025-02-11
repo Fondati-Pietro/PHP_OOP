@@ -34,9 +34,9 @@ class Alunni implements JsonSerializable{
         $this->eta = $eta;
     }
 
-    public function stampa() {
+    /*public function stampa() {
         echo "Nome: " . $this->nome . ", Cognome: " . $this->cognome . ", Età: " . $this->eta . "<br>";
-    }
+    }*/
 
     public function jsonSerialize(): array {
         return [
