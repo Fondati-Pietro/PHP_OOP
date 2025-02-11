@@ -1,5 +1,5 @@
 <?php
-include 'Alunni.php';
+require_once 'Alunni.php';
 
 $alunni = [
     new Alunni(),

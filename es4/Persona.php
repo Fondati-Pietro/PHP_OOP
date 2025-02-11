@@ -4,16 +4,16 @@
         protected $cognome;
 
         public function getNome(){
-            $this->nome
+            $this->nome;
         }
         public function getCognome(){
-            $this->cognome
+            $this->cognome;
         }
-        public function setMarca($nome) {
+        public function setNome($nome) {
             $this->nome = $nome;
         }
-        public function setMarca($marca) {
-            $this->marca = $marca;
+        public function setCognome($cognome) {
+            $this->cognome = $cognome;
         }
 
         public function presentati(){
